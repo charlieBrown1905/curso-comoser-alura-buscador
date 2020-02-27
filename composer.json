@@ -18,6 +18,7 @@
         "classmap": [
             "./teste.php"
         ],
+        "files": ["./functions.php"],
         "psr-4": {
             "Alura\\BuscadorDeCursos\\": "omega/"
         }
@@ -45,5 +46,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificacoes referentes a TEST, CS e PHAN."
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["buscar-cursos.php"]
 }
